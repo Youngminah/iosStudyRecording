@@ -23,7 +23,8 @@
 
 
 
-| 회차      | 내용                | 진행 | 링크                                                         | 한마디 |
-| --------- | ------------------- | ---- | ------------------------------------------------------------ | ------ |
-| **1회차** | **Google SDK Maps** |      | [1.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/1.md) |        |
+| 회차      | 내용                       | 진행 | 링크                                                         | 한마디 |
+| --------- | -------------------------- | ---- | ------------------------------------------------------------ | ------ |
+| **1회차** | **Google SDK Maps**        | ✔️    | [1.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/1.md) |        |
+| **2회차** | **WWDC 2021 SF Symbols 3** | ✔️    | [2.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/2.md) |        |
 

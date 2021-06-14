@@ -29,7 +29,7 @@
 | --------- | ---------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **1회차** | **Google SDK Maps**                            | ✔️    | [1.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/1.md) |                                                              |
 | **2회차** | **WWDC 2021 SF Symbols 3**                     | ✔️    | [2.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/2.md) |                                                              |
-| **3회차** | **TableView includes Nested Collection Views** | ✔️    | [3.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/2.md) | 테이블뷰 다루기( 난이도 상 ) , 테이블 뷰 안의 컬렉션 뷰 깔끔하게 다루기 |
+| **3회차** | **TableView includes Nested Collection Views** | ✔️    | [3.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/3.md) | 테이블뷰 다루기( 난이도 상 ) , 테이블 뷰 안의 컬렉션 뷰 깔끔하게 다루기 |
 
 </br>
 

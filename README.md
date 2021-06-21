@@ -25,14 +25,16 @@
 
 ### 🏷 iOS 기록 
 
-| 회차      | 내용                                           | 진행 | 링크                                                         | 한마디                                                       |
-| --------- | ---------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **1회차** | **Google SDK Maps**                            | ✔️    | [1.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/1.md) |                                                              |
-| **2회차** | **WWDC 2021 SF Symbols 3**                     | ✔️    | [2.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/2.md) |                                                              |
-| **3회차** | **TableView includes Nested Collection Views** | ✔️    | [3.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/3.md) | 테이블뷰 다루기( 난이도 상 ) , 테이블 뷰 안의 컬렉션 뷰 깔끔하게 다루기 |
-| **4회차** | **iOS 앱스토어에 앱 배포하기**                 | ✔️    | [4.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/4.md) |                                                              |
-| **5회차** | **AttributedString Swift 5.5**                 | ✔️    | [5.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/5.md) | WWDC 2021에서 소개된 새로운 스트링.                          |
-| **6회차** | **Tableview Pagination and Spinner**           | ✔️    | [6.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/6.md) | 테이블 뷰 페이징과 스피너 달기                               |
+| 회차    | 내용                                           | 진행 | 링크                                                         | 코멘트                                                  | 날짜           |
+| ------- | ---------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------- |
+| **1회** | **Google SDK Maps**                            | ✔️    | [1.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/1.md) |                                                         | **2021.06.10** |
+| **2회** | **WWDC 2021 SF Symbols 3**                     | ✔️    | [2.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/2.md) |                                                         | **2021.06.11** |
+| **3회** | **TableView includes Nested Collection Views** | ✔️    | [3.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/3.md) | 테이블뷰 다루기( 난이도 상 ) , 테이블 뷰 안의 컬렉션 뷰 | **2021.06.14** |
+| **4회** | **iOS 앱스토어에 앱 배포하기**                 | ✔️    | [4.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/4.md) |                                                         | **2021.06.15** |
+| **5회** | **AttributedString Swift 5.5**                 | ✔️    | [5.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/5.md) | WWDC 2021에서 소개된 새로운 스트링.                     | **2021.06.16** |
+| **6회** | **Tableview Pagination and Spinner**           | ✔️    | [6.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/6.md) | 테이블 뷰 페이징과 스피너 달기                          | **2021.06.20** |
+| **7회** | **QR code Scan in Swift**                      | ✔️    | [7.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/7.md) |                                                         | **2021.06.21** |
+| **8회** |                                                |      |                                                              |                                                         |                |
 
 </br>
 

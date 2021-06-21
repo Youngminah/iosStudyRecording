@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Code View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="QRCodeViewController" customModule="QRCodeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwF-Vg-uew">
+                                <rect key="frame" x="63" y="50" width="249" height="72"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axA-yz-pZE">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <state key="normal" image="focus"/>
+                                <connections>
+                                    <segue destination="9h0-bg-Pwo" kind="presentation" modalPresentationStyle="fullScreen" id="tej-ad-hEf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="axA-yz-pZE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5cb-4B-9Bl"/>
+                            <constraint firstItem="axA-yz-pZE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TeZ-Oe-EJT"/>
+                            <constraint firstItem="TwF-Vg-uew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="aJU-gS-ilh"/>
+                            <constraint firstItem="TwF-Vg-uew" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jyb-sS-G2m"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="138"/>
+        </scene>
+        <!--Scanner Controller-->
+        <scene sceneID="Eq1-a7-De0">
+            <objects>
+                <viewController id="9h0-bg-Pwo" customClass="QRScannerController" customModule="QRCodeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Aj-J8-nMC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V5P-QB-Zr2" userLabel="TopBar">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JF0-pO-EFF">
+                                        <rect key="frame" x="165.5" y="58" width="44" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldt-EN-8Wo">
+                                        <rect key="frame" x="15" y="59" width="18" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="4ip-ba-OZV"/>
+                                            <constraint firstAttribute="width" constant="18" id="ZS8-8i-hlL"/>
+                                            <constraint firstAttribute="height" constant="18" id="loC-zX-YAz"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="cross">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="cQQ-u7-fIp" kind="unwind" unwindAction="unwindToHomeScreenWithSegue:" id="5y1-Vk-LBE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ldt-EN-8Wo" secondAttribute="bottom" constant="13" id="fXe-2z-5W3"/>
+                                    <constraint firstItem="ldt-EN-8Wo" firstAttribute="leading" secondItem="V5P-QB-Zr2" secondAttribute="leading" constant="15" id="g1l-mL-51d"/>
+                                    <constraint firstAttribute="bottom" secondItem="JF0-pO-EFF" secondAttribute="bottom" constant="8" id="hy8-vj-qF0"/>
+                                    <constraint firstItem="JF0-pO-EFF" firstAttribute="centerX" secondItem="V5P-QB-Zr2" secondAttribute="centerX" id="nm2-K3-rZ5"/>
+                                    <constraint firstAttribute="height" constant="90" id="rkU-C8-3xv"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR code is detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rw1-5L-7mL" userLabel="Message Label">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jaY-wF-i5P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mxF-VR-FLi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mxF-VR-FLi" firstAttribute="trailing" secondItem="V5P-QB-Zr2" secondAttribute="trailing" id="7Ls-QQ-ASn"/>
+                            <constraint firstItem="V5P-QB-Zr2" firstAttribute="leading" secondItem="0Aj-J8-nMC" secondAttribute="leading" id="FBk-YC-ero"/>
+                            <constraint firstItem="Rw1-5L-7mL" firstAttribute="leading" secondItem="mxF-VR-FLi" secondAttribute="leading" id="ShN-4J-bdd"/>
+                            <constraint firstItem="mxF-VR-FLi" firstAttribute="trailing" secondItem="Rw1-5L-7mL" secondAttribute="trailing" id="aRI-LI-xHu"/>
+                            <constraint firstItem="V5P-QB-Zr2" firstAttribute="top" secondItem="0Aj-J8-nMC" secondAttribute="top" id="kbu-gu-zDL"/>
+                            <constraint firstItem="mxF-VR-FLi" firstAttribute="bottom" secondItem="Rw1-5L-7mL" secondAttribute="bottom" id="vEH-PR-Gr7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Rw1-5L-7mL" id="20P-Sx-S3V"/>
+                        <outlet property="topBar" destination="V5P-QB-Zr2" id="hJs-Vq-9c4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKd-Fp-wC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="cQQ-u7-fIp" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="960.79999999999995" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cross" width="40" height="40"/>
+        <image name="focus" width="150" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

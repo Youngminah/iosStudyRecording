@@ -34,7 +34,7 @@
 | **5회** | **AttributedString Swift 5.5**                 | ✔️    | [5.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/5.md) | WWDC 2021에서 소개된 새로운 스트링.                     | **2021.06.16** |
 | **6회** | **Tableview Pagination and Spinner**           | ✔️    | [6.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/6.md) | 테이블 뷰 페이징과 스피너 달기                          | **2021.06.20** |
 | **7회** | **QR code Scan in Swift**                      | ✔️    | [7.md](https://github.com/Youngminah/iosStudyRecording/blob/main/iOS/7.md) |                                                         | **2021.06.21** |
-| **8회** |                                                |      |                                                              |                                                         |                |
+| **8회** |          **images in swift**                                       |      |                                                              |                                                         |                |
 
 </br>
 
